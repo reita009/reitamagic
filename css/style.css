@@ -1,0 +1,129 @@
+*{ 
+ 	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+ 	font-family: "Open Sans"
+
+}
+.center{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+html,body{
+	height: 100%;
+}
+@font-face{
+	src:url('../fonts/OpenSans-Light.ttf');
+	font-family: "Open Sans";
+}
+
+.header{
+	width: 100%;
+	height: 98px;
+	background-color: black;
+}
+.header >.center>img{
+	width: 185px;
+}
+.container-banner{
+	width: 100%;
+	height: 780px;
+	background-image:url('../images/fundo_2.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.container-banner>.center{
+	height: 100%;
+	
+}
+.form{
+	padding: 15px;
+	width: 400px;
+	height: 106%;
+	top: -20px;
+	float: right;
+	position: relative;
+	border: 8px solid #cc9c00;
+	background-color: #997a00;
+	background-clip: padding-box;
+
+}
+.form h2{
+	font-weight: normal;
+	color: #f2f2f2;
+	font-size: 23px;
+}
+
+.input-container{
+	margin-top: 20px;
+}
+.input-container span{
+	display: inline-block;
+	width: 100%;
+	color:#d9d9d9;
+	font-size: 17px;
+}
+.input-container input[type=text]{
+	margin-top: 8px;
+	width: 344px;
+	height: 55px;
+	border: 2px solid #cc9c00;
+	background-color: #ffffcc;
+
+}
+.form .input-submit-container{
+	margin-top: 10px;
+	text-align: center;
+}
+.form input[type=submit]{
+	
+	color: black;
+	font-size: 25px;
+	width:280px;
+	height: 56px;
+	display: inline-block;
+	background-color: #e6e600;
+	cursor: pointer;
+	border-bottom: 5px solid #666600;
+}
+.form input[type=submit]:hover{
+	background-color: #cccc00;
+}
+.container-list{
+	padding: 3px;
+	margin-top: 40px;
+	float: left;
+	width: 619px;
+	height: 270px;
+	background-color: rgba(117, 117, 163,0.7);
+
+}
+.container-list ul {
+	font-size: 20px;
+	margin-top: 18px;
+	list-style-position: inside;
+	font-family: arial;
+}
+.container-2{
+	padding: 70px 0;
+	background-color: black;
+	text-align: center;
+}
+.container-2 h2{
+	color: white;
+}
+.container-2 p{
+	margin:15px 0;
+	width: 698px;
+	color: white;
+	display: inline-block;
+	text-align: justify;
+}
+.arrow{
+	width: 100px;
+	height: 100px;
+	background-image: url('../images/arrow.jpg');
+
+}
